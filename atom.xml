@@ -6,7 +6,7 @@
   <link href="https://syy85.github.io/atom.xml" rel="self"/>
   
   <link href="https://syy85.github.io/"/>
-  <updated>2020-08-12T00:57:16.856Z</updated>
+  <updated>2020-08-12T03:58:31.822Z</updated>
   <id>https://syy85.github.io/</id>
   
   <author>
@@ -17,14 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>快速搭建个人博客</title>
+    <link href="https://syy85.github.io/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/"/>
+    <id>https://syy85.github.io/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/</id>
+    <published>2020-08-12T01:13:19.000Z</published>
+    <updated>2020-08-12T03:58:31.822Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;博客搭建&quot;&gt;&lt;a href=&quot;#博客搭建&quot; class=&quot;headerlink&quot; title=&quot;博客搭建&quot;&gt;&lt;/a&gt;博客搭建&lt;/h2&gt;&lt;h3 id=&quot;程序安装&quot;&gt;&lt;a href=&quot;#程序安装&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Github" scheme="https://syy85.github.io/tags/Github/"/>
+    
+    <category term="Hexo" scheme="https://syy85.github.io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://syy85.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello world</title>
     <link href="https://syy85.github.io/2020/08/10/hello-world/"/>
     <id>https://syy85.github.io/2020/08/10/hello-world/</id>
     <published>2020-08-10T14:25:00.000Z</published>
-    <updated>2020-08-12T00:57:16.856Z</updated>
+    <updated>2020-08-12T03:59:17.388Z</updated>
     
     
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
     
     
     
