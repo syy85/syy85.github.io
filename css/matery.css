@@ -268,8 +268,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #2444ac 0%, #1084c7 100%);
-    opacity: 0.8;
+    background-image: linear-gradient(to right, #1b8694 0%, #34cfd4 100%);
+    opacity: 0.7;
 }
 
 .text-color {
