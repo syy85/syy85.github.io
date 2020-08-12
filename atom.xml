@@ -6,7 +6,7 @@
   <link href="https://syy85.github.io/atom.xml" rel="self"/>
   
   <link href="https://syy85.github.io/"/>
-  <updated>2020-08-12T04:44:50.730Z</updated>
+  <updated>2020-08-12T04:57:11.057Z</updated>
   <id>https://syy85.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://syy85.github.io/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/"/>
     <id>https://syy85.github.io/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/</id>
     <published>2020-08-12T01:13:19.000Z</published>
-    <updated>2020-08-12T04:44:50.730Z</updated>
+    <updated>2020-08-12T04:57:11.057Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="博客系列" scheme="https://syy85.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97/"/>
     
     
     <category term="Github" scheme="https://syy85.github.io/tags/Github/"/>
