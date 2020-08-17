@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>加速访问网站</title>
+      <link href="/2020/08/17/jia-su-fang-wen-wang-zhan/"/>
+      <url>/2020/08/17/jia-su-fang-wen-wang-zhan/</url>
+      
+        <content type="html"><![CDATA[<h2 id="插件测试"><a href="#插件测试" class="headerlink" title="插件测试"></a>插件测试</h2><div class="uk-alert uk-alert-success"><i class="fa fa-check-circle"></i> 插件测试</div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> -测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>快速搭建个人博客</title>
       <link href="/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/"/>
       <url>/2020/08/12/kuai-su-da-jian-ge-ren-bo-ke/</url>
