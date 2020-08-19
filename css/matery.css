@@ -268,7 +268,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #c6c9ca 0%, #c6c9ca 100%);
+    background-image: linear-gradient(to right, #7858ac 0%, #2d5d6d 100%);
     opacity: 0.8;  /* 透明效果 值范围 0~1，看情况自己修改 */
 }
 
