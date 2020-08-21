@@ -1692,8 +1692,8 @@ canvas:not(#ribbon-canvas),
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #f6f8fa;
-  color: #90a4ae;
+  background: #212121;
+  color: #eff;
   line-height: 1.6;
 }
 blockquote {
@@ -1736,7 +1736,7 @@ blockquote footer cite:before {
 #article-container pre code {
   padding: 0;
   background: none;
-  color: #90a4ae;
+  color: #eff;
   text-shadow: none;
 }
 #article-container figure.highlight {
@@ -1764,8 +1764,8 @@ blockquote footer cite:before {
   overflow: hidden;
   min-height: 1.2rem;
   height: 2.15em;
-  background: #e6ebf1;
-  color: #90a4ae;
+  background: #1c1c1c;
+  color: rgba(238,255,255,0.8);
 }
 #article-container .highlight-tools.closed + table {
   display: none;
@@ -1837,8 +1837,8 @@ blockquote footer cite:before {
 #article-container figure.highlight {
   margin: 0 0 1.2rem;
   border-radius: 7px;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(144,164,174,0.4);
-  box-shadow: 0 5px 10px 0 rgba(144,164,174,0.4);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
   -webkit-transform: translateZ(0);
 }
 #article-container figure.highlight .highlight-tools:after {
@@ -3402,6 +3402,7 @@ _:future,
 #mobile-sidebar #mobile-sidebar-menus .menus_items .menus_item_child {
   margin: 0;
   list-style: none;
+  display: none;
 }
 #pagination {
   overflow: hidden;
