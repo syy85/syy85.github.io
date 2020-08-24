@@ -135,43 +135,39 @@ if (autoChangeMode === '1') {
       false && mermaid.init()
     })
   }
-}</script><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
-  var from = from
-  var setting = set.split(',').filter(function(item){
-  return from.indexOf(item) > -1
-  });
-  setting = setting.length == 0 ? from :setting;
-  return setting
+}</script><script>function loadValine () {
+  function initValine () {
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: '0yH0gLfpMdxpqgnyRSFFIw2L-gzGzoHsz',
+      appKey: 'WY8N3gvvv77rv1IoU2RuR87f',
+      placeholder: '确定不留言嘛 ─=≡Σ(((つ•̀ω•́)つ (昵称处填写QQ，自动获取邮箱哦~~)',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '5',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
 }
 
-var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
-var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
-let friends = '5c2105bbfe6rfc02a6f6ae26dad3819c,a0adabb31677df92a2405fb18a02ee4d'.split(',')
-let master = '199da75d77ff7a01b5559ea06ae55a8a'.split(',')
-let tagMeta = '博主,小伙伴,访客'.split(',')
-
-window.valine = new Valine({
-  el:'#vcomment',
-  appId: '0yH0gLfpMdxpqgnyRSFFIw2L-gzGzoHsz',
-  appKey: 'WY8N3gvvv77rv1IoU2RuR87f',
-  notify: false,
-  verify: false,
-  placeholder: '确定不留言嘛 ─=≡Σ(((つ•̀ω•́)つ (昵称处填写QQ，自动获取邮箱哦~~)',
-  avatar: 'monsterid',
-  meta: guestInfo,
-  pageSize: '5',
-  lang: 'zh-CN',
-  recordIP: 'false',
-  serverURLs: '',
-  emojiCDN: '',
-  emojiMaps: "",
-  enableQQ: true,
-  requiredFields: requiredFields,
-  master: master,
-  friends: friends,
-  tagMeta: tagMeta,
-  metaPlaceholder: {"nick":"昵称/QQ号(必填)","mail":"邮箱(必填)","link":"网址(https://)"}
-});</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="music" key="5f3e3ec73c30e" api="https://music.m0x.cn"></div><script id="xplayer" src="https://music.m0x.cn/Static/player2/js/player.js" ></script><script src="https://cdn.jsdelivr.net/gh/syy85/background.io@v1.1.2/background.min.js"></script><canvas class="fireworks"></canvas><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+if ('Valine' === 'Valine' || !false) {
+  if (false) loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="music" key="5f3e3ec73c30e" api="https://music.m0x.cn"></div><script id="xplayer" src="https://music.m0x.cn/Static/player2/js/player.js" ></script><script src="https://cdn.jsdelivr.net/gh/syy85/background.io@v1.1.2/background.min.js"></script><canvas class="fireworks"></canvas><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = true;
 document.body.addEventListener('input', POWERMODE);
 </script></div><script>
